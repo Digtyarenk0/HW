@@ -1,0 +1,53 @@
+.var1 blockquote {
+    margin: 0;
+    width: 400px;
+    height: 200px;
+}
+
+.var1 blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.var1 blockquote p:before {
+    content: '\201C';
+}
+
+.var1 blockquote p:after {
+    content: '\201D';
+}
+
+.holder a[href^="https"]{
+    color: #f00;
+}
+
+.holder > ul > li:last-child{
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.holder ul + p{
+    font-size: 26px;
+}
+
+
+.text-holder h3:first-child{
+    color: #ffc2cc;
+}
+
+#greycol{
+    color: #888;
+}
+
+.text-holder div p{
+    color: #f00;
+}
+
+.text-holder p:nth-child(7){
+color: #080;
+}
+
+
+.yellow{
+    color: #ff0;
+}
